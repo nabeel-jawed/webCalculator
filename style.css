@@ -1,0 +1,31 @@
+.dvMain{
+    width: 278px;
+    border: 2px solid blue;
+    margin: 0px auto;
+    background-color:whitesmoke;
+}
+table{
+    width: 280px;
+}
+.result{
+    background-color:  rgb(150, 225, 228);
+    color: white;
+    width: 96%;
+}
+
+h3{
+    color: rgb(221, 132, 42);
+    text-align: center;
+}
+
+.btnHalf{
+    width: 47%;
+    margin: 2px;
+    background-color: rgb(76, 151, 212);
+}
+
+.btn{
+    width: 22%;
+    margin: 2px;
+    background-color: rgb(204, 185, 185);
+}

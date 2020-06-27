@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="dvMain">
+        <table>
+            <tr>
+                <td>
+                    <h3>
+                        Calculator
+                    </h3>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="text" class="result" id="result"></td>
+            </tr>
+ 
+            <tr>
+                <td>
+                    <button class="btnHalf" onclick="clearResult()">AC</button>
+                    <button class="btnHalf" onclick="getNumber('+')">+</button>
+                </td>
+            </tr>
+             
+            <tr>
+                <td>
+                    <button class="btn" onclick="getNumber(7)">7</button>
+                    <button class="btn" onclick="getNumber(8)">8</button>
+                    <button class="btn" onclick="getNumber(9)">9</button>
+                    <button class="btn" onclick="getNumber('-')">-</button>
+                </td>
+            </tr>
+           
+            <tr>
+                <td>
+                    <button class="btn" onclick="getNumber(4)">4</button>
+                    <button class="btn" onclick="getNumber(5)">5</button>
+                    <button class="btn" onclick="getNumber(6)">6</button>
+                    <button class="btn" onclick="getNumber('*')">x</button>
+                </td>
+            </tr>
+            
+            <tr>
+                <td>
+                    <button class="btn" onclick="getNumber(1)">1</button>
+                    <button class="btn" onclick="getNumber(2)">2</button>
+                    <button class="btn" onclick="getNumber(3)">3</button>
+                    <button class="btn" onclick="getNumber('/')">÷</button>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <button class="btnHalf" onclick="getNumber(0)">0</button>
+                    <button class="btnHalf" onclick="calculation()">=</button>
+                </td>
+            </tr>
+            <tr></tr>
+        </table>
+
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
